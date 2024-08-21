@@ -1,6 +1,5 @@
 package com.example.paging3.presentation
 
-import android.provider.Settings.System.getString
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -105,7 +104,6 @@ fun ImageCard (
 
                     ) {
                     ElevatedAssistChip(
-                        //border = BorderStroke(1.dp, Color.LightGray),
                         leadingIcon = {
                             Icon(
                                 imageVector = Icons.Outlined.Home,
@@ -113,7 +111,6 @@ fun ImageCard (
                             )
                         },
                         onClick = {
-                            //navController.navigate(route = Home)
                             navController.popBackStack()
                         },
                         label = {
@@ -122,7 +119,6 @@ fun ImageCard (
                     )
 
                     ElevatedAssistChip(
-                        //border = BorderStroke(1.dp, Color.LightGray),
                         leadingIcon = {
                             Icon(
                                 imageVector = Icons.Outlined.Favorite,

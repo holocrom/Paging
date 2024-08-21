@@ -15,7 +15,6 @@ data class LocationModel(
     val name: String,
     val type: String,
     val dimension: String,
-    //val residents: String,
     val url: String,
     val created: String,
 )

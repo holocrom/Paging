@@ -5,8 +5,6 @@ plugins {
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlinxSerialization)
 
-    //alias(libs.plugins.ksp)
-    //ksp("androidx.room:room-compiler:2.5.0")
 }
 
 android {
@@ -46,7 +44,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.7"
     }
     packaging {
         resources {
@@ -87,9 +85,4 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation (libs.androidx.navigation.compose)
 
-
-    //Room
-    //implementation("androidx.room:room-runtime:${rootProject.extra["2.7.0-alpha05"]}")
-    //ksp("androidx.room:room-compiler:${rootProject.extra["2.7.0-alpha05"]}")
-    //implementation("androidx.room:room-ktx:${rootProject.extra["2.7.0-alpha05"]}")
 }

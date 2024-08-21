@@ -43,17 +43,7 @@ fun RickListScreen(
             .fillMaxSize()
             .background(Color.DarkGray)
     ){
-        //In case I wish a picture background
-//        Image(
-//            painter = painterResource(id = R.drawable.fondo ),
-//            contentDescription = "fondo",
-//            modifier =
-//                Modifier.fillMaxSize(),
-//            contentScale = ContentScale.Crop
-//        )
-
         when{
-            //initial load
             characters.loadState.refresh is LoadState.Loading && characters.itemCount == 0 -> {
                 Box(
                     modifier = Modifier
