@@ -15,19 +15,40 @@ A dimension-hopping Android app exploring characters with Jetpack Compose
 ⚡ Tech Stack:
 
   app/
+  <p>
   ├── data    # Futurama API + Room caching
+    </p>
+      <p>
   ├── domain  # UseCases & models  
+  </p>
+    <p>
   └── ui      # Composable screens (MVVM)
+  </p>
 
-
+  <p>
 Layer	Technologies Used
-  DI	        Hilt
-  Async	      Coroutines + Flow
-  UI	        Jetpack Compose + Material 3
-  Paging	    Paging 3.0 
-  Animations	infiniteTransition
-  Navigation	Compose Navigation with transitions
-  Networking  Retrofit
+     </p>
+      <p>
+  DI	->        Hilt
+         </p>
+          <p>
+  Async	  ->    Coroutines + Flow
+             </p>
+              <p>
+  UI	  ->      Jetpack Compose + Material 3
+                 </p>
+                  <p>
+  Paging	->    Paging 3.0 
+                     </p>
+                      <p>
+  Animations	-> infiniteTransition
+                         </p>
+                          <p>
+  Navigation ->	Compose Navigation with transitions
+                             </p>
+                              <p>
+  Networking ->  Retrofit
+   </p>
 
 📜 License:
   [MIT] - "You're free as a Cromulon!"
